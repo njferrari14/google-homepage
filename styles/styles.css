@@ -1,6 +1,7 @@
 html, body {
-    font-family: aria, sans-serif;
     height: 100%;
+    font-family: aria, sans-serif;
+    box-sizing: border-box;
 }
 body {
     display: flex;
