@@ -12,29 +12,33 @@
 <body>
     <main class="content">
     <nav>
-        <ul>
+        <ul class="menu">
             <li class="l-link"><a href="about.html">About</a></li>
             <li class="l-link"><a href="store.html">Store</a></li>
-            <li class="r-link"><a href="gmail.html">Gmail</a></li>
-            <li class="r-link"><a href="images.html">Images</a></li>
+            <li class="r-link"><a href="account.html" class="n">N</a></li>
             <li class="r-link squares"><a href="apps.html"></a></li>
-            <li class="r-link"><a href="account.html">N</a></li>
+            <li class="r-link"><a href="images.html">Images</a></li>
+            <li class="r-link"><a href="gmail.html" class="m-left">Gmail</a></li>
         </ul>
     </nav>
-    <h1 class="logo"></h1>
-    <form action="results.html">
-        <input type="text" id="search-box" style="margin: 0 auto;border: 1px solid #dfe1e5; width: 500px; height: 35px; border-radius: 24px;background-image: url(images/magnifying-glass.png); background-position: 465px 5px; background-repeat: no-repeat;">
-        <button type="submit">Google Search</button>
-        <button type="submit">I'm Feeling Lucky</button>
-    </form>
+    <div class="middle">
+        <h1 class="logo"></h1>
+        <form action="results.html">
+            <input type="text" id="search-box" style="margin: 0 auto;border: 1px solid #dfe1e5; width: 500px; height: 35px; border-radius: 24px;background-image: url(images/magnifying-glass.png); background-position: 465px 5px; background-repeat: no-repeat;">
+            <div class="buttons">
+                <button type="submit">Google Search</button>
+                <button type="submit">I'm Feeling Lucky</button>
+            </div>
+        </form>
+    </div>
     </main>
-    <footer style="background: #f2f2f2;">
-        <a href="advert.html">Advertising</a>
-        <a href="business.html">Business</a>
-        <a href="how.html">How Search Works</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-        <a href="settings.html">Settings</a>
+    <footer>
+        <a href="advert.html" class="foot-link l-link">Advertising</a>
+        <a href="business.html" class="foot-link l-link">Business</a>
+        <a href="how.html" class="foot-link l-link">How Search Works</a>
+        <a href="settings.html" class="foot-link r-link">Settings</a>
+        <a href="terms.html" class="foot-link r-link">Terms</a>
+        <a href="privacy.html" class="foot-link r-link">Privacy</a>
     </footer>
 </body>
 </html>
