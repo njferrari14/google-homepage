@@ -13,6 +13,9 @@ a {
 li {
     display: inline-block;
 }
+footer {
+    margin-top: auto;
+}
 .content {
     flex: 1 0 auto;
 }
@@ -31,6 +34,9 @@ li {
     background: url(../images/menu-squares.png);
     background-size: contain;
 }
-footer {
-    margin-top: auto;
+.l-link {
+    float: left;
+}
+.r-link {
+    float: right;
 }
